@@ -80,15 +80,23 @@ command depends on your present working directory), then please note that contex
    test `Car` objects and objects of the new type that you just created. You should not change the
    name of the method. However, you may modify other parts of the method signature as well as the 
    method's body, as needed. *Note*: You should also update Javadoc comments in the `Driver` class 
-   where necessary.
+   where necessary. Summarize the changes you made. 
 
 **CHECKPOINT**
 
-1. Add a method `stop` to `Drivable.java`.  Compile your code.  What happened?  Why?
+1. Add an abstract method `stop` to the `Drivable` interface, including appropriate Javadoc comments
+   for what the the method should do. Recompile the interface as well as any code that depends on 
+   the interface.  Did any compilation problems occur?  If so, where and why?
 
-1. Fix the errors generated in the previous step.  Add Javadoc comments where necessary.
+1. Without modifying the code in the interface, fix the errors observed in the previous step. If you 
+   find yourself writing additional methods in any of the other Java source code files, then be sure
+   to include appropriate Javadoc comments. For each affected file, list the commands you used to 
+   verify that you fixed the errors. 
 
-1. Update the hosted documentation on nike.
+1. Regenerate the API documentation website for all of the code in the `cs1302` package. Since you
+   added a method to the interface in a previous step, you will likely want to share that information
+   with other developers. What is the direct URL to the API documentation for the `stop` method you
+   wrote, so that you can share it with ~~friends~~ other developers?
 
 **CHECKPOINT**
     
