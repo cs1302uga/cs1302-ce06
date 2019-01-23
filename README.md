@@ -68,11 +68,19 @@ command depends on your present working directory), then please note that contex
 1. Add a class to the `cs1302.ce06.impl` package that represents your group's best type. That type should
    be something that is capable of being driven and therefore a perfect candidate for a class that implements 
    the `Drivable` interface. Therefore, make sure that your class properly implements the interface. Also
-   make sure that your class compiles. What is the command that you used to compile your class?
+   make sure that your class compiles. Here is a small list of things you should do:
    
-1. Update `Driver.java` to test your new class. You probably don't want to create a separate `test` method as
-   the existing `test`. Rewrite the `test` method so it can be used to test `Car` objects and objects of the
-   new type that you just created. *Note*: You should also update Javadoc comments where necessary.
+   1. Properly implement the interface. 
+   1. Add appropriate Javadoc comments and update your API documentation website. 
+   1. Compile your class.
+   
+   What is the command that you used to compile your class? 
+   
+1. Update `Driver.java` to test your new class. Rewrite the existing `test` method so it can be used to 
+   test `Car` objects and objects of the new type that you just created. You should not change the
+   name of the method. However, you may modify other parts of the method signature as well as the 
+   method's body, as needed. *Note*: You should also update Javadoc comments in the `Driver` class 
+   where necessary.
 
 **CHECKPOINT**
 
