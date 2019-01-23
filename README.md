@@ -54,12 +54,18 @@ command depends on your present working directory), then please note that contex
    code under the `bin` directory. Notice that interfaces are really just Java classes that are compiled
    in the same way.
    
-1. Compile `Car.java`.  Uh-oh.  What compile-time error was generated?  Modify `Car.java` to fix the error
-   and recompile.
+1. Compile `Car.java`.  Uh-oh.  What compile-time error was generated?  Why did you receive this error?
+   Modify `Car.java` to fix the error and recompile.
    
-1. 
+1. Compile and execute `Driver.java`. It should run properly once `Car.java` is compiled. For now, we only
+   have a single class (`Car.java`) that implements `Drivable`. Notice that the `test` method in `Driver.java`
+   takes an argument of type `Car`. For now this is okay, just observe what is going on.
 
-1. Verify that files were generated and placed in the `doc` directory before continuing.
+1. Add another class to `src/cs1302/ce06/impl/`. The class can be anything you wish as long as it implements
+   the `Drivable` interface.  
+   
+1. Update `Driver.java` to test your new class. You probably don't want to create a separate `test` method as
+   the existing `test`
    What do the `-d`, `-sourcepath`, and `-subpackages` options mean?
 
 1. Use `ln` to create a symbolic link (shortcut) named `cs1302-ce05-doc` in your `public_html` 
