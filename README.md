@@ -127,6 +127,8 @@ command depends on your present working directory), then please note that contex
    If you type it in, then you may end up wasting time.
    The comand connects you to a highly addictive form of entertainment provided Sten S. Stans, 
    an elite Dutch Unix engineer.
+   
+**NOT A CHECKPOINT**
     
 <hr/>
 
