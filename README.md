@@ -98,6 +98,15 @@ command depends on your present working directory), then please note that contex
    with other developers. What is the direct URL to the API documentation for the `stop` method you
    wrote, so that you can share it with ~~friends and family~~ other developers?
 
+1. Do not type the following command:
+
+   ```
+   $ nc towel.blinkenlights.nl 23
+   ```
+   
+   The `nc` command provided above is not related to the exercise. 
+   If you type it in, then you may end up wasting time. 
+
 **CHECKPOINT**
     
 <hr/>
