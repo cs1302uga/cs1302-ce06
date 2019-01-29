@@ -52,9 +52,21 @@ command depends on your present working directory), then please note that contex
 **CHECKPOINT**
 
 1. Make sure that you are still in the `cs1302-ce06` directory. Compile `Drivable.java` and place the compiled
-   code under the `bin` directory. Notice that interfaces are compiled the same way as classes.
+   code under the `bin` directory. To see a listing of all of the 
+   files under the `bin` subdirectory, use the `find` command as follows:
    
-1. Compile `Car.java`.  Uh-oh.  What compile-time error was generated?  Why did you receive this error?
+   ```
+   $ find src
+   ```
+   
+   Notice that interfaces are compiled the same way as classes. In your note, write down the path for each
+   `.class` file that the compiler generated based on the output of `find`.
+   
+1. Compile `Car.java`.  Uh-oh.  
+
+   * What compile-time error was generated?  
+   * Why did you receive this error?
+   
    Modify `Car.java` to fix the error and recompile.
    
 1. Compile and execute `Driver.java`. It should run properly once `Car.java` is compiled. For now, we only
@@ -80,7 +92,7 @@ command depends on your present working directory), then please note that contex
    test `Car` objects and objects of the new type that you just created. You should not change the
    name of the method. However, you may modify other parts of the method signature as well as the 
    method's body, as needed. *Note*: You should also update Javadoc comments in the `Driver` class 
-   where necessary. Summarize the changes you made. 
+   where necessary. In your notes, summarize the changes you made.
 
 **CHECKPOINT**
 
