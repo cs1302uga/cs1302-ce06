@@ -90,16 +90,19 @@ command depends on your present working directory), then please note that contex
    
 1. Update `Driver.java` to test your new class. Rewrite the existing `test` method so it can be used to 
    test `Car` objects and objects of the new type that you just created. You should not change the
-   name of the method. However, you may modify other parts of the method signature as well as the 
-   method's body, as needed. *Note*: You should also update Javadoc comments in the `Driver` class 
-   where necessary. In your notes, summarize the changes you made.
+   name of the method, its return type, or the number of parameters. However, you may modify other 
+   parts of the method signature as well as the method's body, as needed. You should not overload
+   the method. Be sure to update the Javadoc comments in the `Driver` class where necessary. 
+   In your notes, summarize the changes you made.
    
-1. Regenerate the API documentation website for all of the code in the `cs1302` package.
+1. Regenerate the API documentation website for all of the code in the `cs1302` package using
+   the Javadoc tool. You should not need to recreate the symbolic link, assuming it still exists from
+   a prior step.
 
 **CHECKPOINT**
 
 1. Add an abstract method `stop` to the `Drivable` interface, including appropriate Javadoc comments
-   for _what_ the method should do. Recompile the interface as well as any code that depends on 
+   for _what_ the method should do. Recompile the interface _as well_ as any code that depends on 
    the interface.  Did any compilation problems occur?  If so, where and why?
 
 1. Without modifying the code in the interface, fix the errors observed in the previous step. If you 
@@ -112,6 +115,8 @@ command depends on your present working directory), then please note that contex
    with other developers. What is the direct URL to the API documentation for the `stop` method you
    wrote, so that you can share it with ~~friends and family~~ other developers?
 
+**CHECKPOINT**
+
 1. Do not type the following command:
 
    ```
@@ -122,8 +127,6 @@ command depends on your present working directory), then please note that contex
    If you type it in, then you may end up wasting time.
    The comand connects you to a highly addictive form of entertainment provided Sten S. Stans, 
    an elite Dutch Unix engineer.
-
-**CHECKPOINT**
     
 <hr/>
 
