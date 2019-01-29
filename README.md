@@ -97,7 +97,8 @@ command depends on your present working directory), then please note that contex
    
 1. Regenerate the API documentation website for all of the code in the `cs1302` package using
    the Javadoc tool. You should not need to recreate the symbolic link, assuming it still exists from
-   a prior step.
+   a prior step. Show the instructor or PLA the Javadoc webpage for the new class you created
+   and documented _as well as_ the driver class.
 
 **CHECKPOINT**
 
@@ -114,6 +115,9 @@ command depends on your present working directory), then please note that contex
    added a method to the interface in a previous step, you will likely want to share that information
    with other developers. What is the direct URL to the API documentation for the `stop` method you
    wrote, so that you can share it with ~~friends and family~~ other developers?
+   
+1. Show the instructor or PLA your `stop` method in the various places that it appears in the API 
+   documentation website that you regenerated in the previous step.
 
 **CHECKPOINT**
 
