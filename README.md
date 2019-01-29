@@ -56,18 +56,18 @@ command depends on your present working directory), then please note that contex
    files under the `bin` subdirectory, use the `find` command as follows:
    
    ```
-   $ find src
+   $ find bin
    ```
    
-   Notice that interfaces are compiled the same way as classes. In your note, write down the path for each
+   Notice that interfaces are compiled the same way as classes. In your notes, write down the path for each
    `.class` file that the compiler generated based on the output of `find`.
    
-1. Compile `Car.java`.  Uh-oh.  
+1. Compile `Car.java`.  *Uh-oh*. (╯°□°）╯︵ ┻━┻ 
 
    * What compile-time error was generated?  
    * Why did you receive this error?
    
-   Modify `Car.java` to fix the error and recompile.
+   Modify `Car.java` to fix the error and recompile. ┬─┬ノ( º _ ºノ)
    
 1. Compile and execute `Driver.java`. It should run properly once `Car.java` is compiled. For now, we only
    have a single class (`Car.java`) that implements `Drivable`. Notice that the `test` method in `Driver.java`
