@@ -119,7 +119,8 @@ command depends on your present working directory), then please note that contex
    ```
    
    The `nc` command provided above is not related to the exercise. 
-   If you type it in, then you may end up wasting time. 
+   If you type it in, then you may end up wasting time.
+   It leads to a highly addictive form of entertainment provided Sten S. Stans, an elite Dutch Unix engineer.
 
 **CHECKPOINT**
     
