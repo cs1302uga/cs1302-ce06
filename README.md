@@ -64,7 +64,7 @@ command depends on your present working directory), then please note that contex
    
 1. Compile `Car.java`.  *Uh-oh*. (╯°□°）╯︵ ┻━┻ 
 
-   * What compile-time error was generated?  
+   * What compile-time error was generated?
    * Why did you receive this error?
    
    Modify `Car.java` to fix the error and recompile. ┬─┬ノ( º _ ºノ)
@@ -93,6 +93,8 @@ command depends on your present working directory), then please note that contex
    name of the method. However, you may modify other parts of the method signature as well as the 
    method's body, as needed. *Note*: You should also update Javadoc comments in the `Driver` class 
    where necessary. In your notes, summarize the changes you made.
+   
+1. Regenerate the API documentation website for all of the code in the `cs1302` package.
 
 **CHECKPOINT**
 
