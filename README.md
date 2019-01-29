@@ -108,7 +108,7 @@ command depends on your present working directory), then please note that contex
 1. Without modifying the code in the interface, fix the errors observed in the previous step. If you 
    find yourself writing additional methods in any of the other Java source code files, then be sure
    to include appropriate Javadoc comments. For each affected file, list the commands you used to 
-   verify that you fixed the errors. 
+   verify that you fixed the errors. Repeat this step, as needed, until the code compiles.
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package. Since you
    added a method to the interface in a previous step, you will likely want to share that information
