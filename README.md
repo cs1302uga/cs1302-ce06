@@ -7,6 +7,13 @@ This class exercise is designed to get you aquainted with Interfaces in Java.
 * A basic understanding of creating and implementing interfaces in Java.
 * https://github.com/cs1302uga/cs1302-tutorials/blob/master/interfaces/interfaces.md
 
+## Course-Specific Learning Outcomes
+
+* **LO2.b:** (Partial) Define, throw, and propagate exceptions appropriately in a software solution.
+* **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
+set of requirements.
+* **LO3.c:** Generate user-facing API documentation for a software solution.
+
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
