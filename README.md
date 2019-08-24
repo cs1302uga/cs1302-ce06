@@ -9,7 +9,6 @@ This class exercise is designed to get you aquainted with Interfaces in Java.
 
 ## Course-Specific Learning Outcomes
 
-* **LO2.d:** (Partial) Implement new generic methods, interfaces, and classes in a software solution.
 * **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
 * **LO3.b:** Create class, interface, method, and inline documentation that satisfies a 
 set of requirements.
