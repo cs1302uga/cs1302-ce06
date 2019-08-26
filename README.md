@@ -1,5 +1,7 @@
 # ce06 Interfaces (ADTs)
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 This class exercise is designed to get you aquainted with Interfaces in Java.
 
 ## Prerequisite Knowledge
