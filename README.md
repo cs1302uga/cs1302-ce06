@@ -1,5 +1,6 @@
 # ce06 Interfaces (ADTs)
 
+<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)-->
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
 
 This class exercise is designed to get you aquainted with Interfaces in Java.
@@ -127,15 +128,19 @@ command depends on your present working directory), then please note that contex
    for _what_ the method should do. Recompile the interface _as well_ as any code that depends on 
    the interface.  Did any compilation problems occur?  If so, where and why?
 
-1. Without modifying the code in the interface, fix the errors observed in the previous step. If you 
-   find yourself writing additional methods in any of the other Java source code files, then be sure
-   to include appropriate Javadoc comments. For each affected file, list the commands you used to 
-   verify that you fixed the errors. Repeat this step, as needed, until the code compiles.
+1. Without further modifying the code in the interface, fix the errors observed in the previous step. 
+   If you find yourself writing additional methods in any of the other Java source code files, then 
+   be sure to include appropriate Javadoc comments. For each affected file, list the commands you used 
+   to verify that you fixed the errors. Repeat this step, as needed, until the code compiles.
 
 1. Regenerate the API documentation website for all of the code in the `cs1302` package. Since you
    added a method to the interface in a previous step, you will likely want to share that information
    with other developers. What is the direct URL to the API documentation for the `stop` method you
    wrote, so that you can share it with ~~friends and family~~ other developers?
+
+1. Run the 1302 `checkstyle` program on all `.java` files. If errors are reported, look up each error 
+   message in the [Style Guide](https://github.com/cs1302uga/cs1302-styleguide), fix the error, and 
+   repeat until no style errors remain.
    
 1. Show the instructor or PLA your `stop` method in the various places that it appears in the API 
    documentation website that you regenerated in the previous step.
@@ -150,7 +155,7 @@ command depends on your present working directory), then please note that contex
    
    The `nc` command provided above is not related to the exercise. 
    If you type it in, then you may end up wasting time.
-   The comand connects you to a highly addictive form of entertainment provided Sten S. Stans, 
+   The command connects you to a highly addictive form of entertainment provided Sten S. Stans, 
    an elite Dutch Unix engineer.
    
 **NOT A CHECKPOINT**
