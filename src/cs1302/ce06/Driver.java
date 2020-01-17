@@ -18,45 +18,45 @@ public class Driver {
      * @param car the car to test
      * @param speedupAmount the amount to speedup the car
      * @param slowdownAmount the amount to slowdown the car
-     */ 
+     */
     public static void test(Car car, double speedupAmount,
-			    double slowdownAmount) {
-	System.out.println(car);
-	if(car.speedUp(speedupAmount)) {
-	    System.out.println("The car sped up by " + speedupAmount + " mph");
-	} else {
-	    System.out.println("The car cannot go that fast");
-	} // if
+                            double slowdownAmount) {
+        System.out.println(car);
+        if(car.speedUp(speedupAmount)) {
+            System.out.println("The car sped up by " + speedupAmount + " mph");
+        } else {
+            System.out.println("The car cannot go that fast");
+        } // if
 
-	if(car.slowDown(slowdownAmount)) {
-	    System.out.println("The car slowed down by " + slowdownAmount + " mph");
-	} else {
-	    System.out.println("The car is cannot slow down by that amount");
-	} // if
+        if(car.slowDown(slowdownAmount)) {
+            System.out.println("The car slowed down by " + slowdownAmount + " mph");
+        } else {
+            System.out.println("The car is cannot slow down by that amount");
+        } // if
 
-	System.out.println(car);
+        System.out.println(car);
     } // test
 
     /**
-     * 
+     *
      * @param args the command-line arguments to the program
      */
     public static void main(String[] args) {
-	Car fastCar = new Car(185.5);
-	Car slowCar = new Car(75.0);
+        Car fastCar = new Car(185.5);
+        Car slowCar = new Car(75.0);
 
-	System.out.println("--------------------");
-	
-	test(fastCar, 200.5, 20);
-	System.out.println("--------------------");
+        System.out.println("--------------------");
 
-	test(fastCar, 125, 20);
-	System.out.println("--------------------");
-	
-	test(slowCar, 85, 20);
-	System.out.println("--------------------");
-	
-	test(slowCar, 65, 65);
-	System.out.println("--------------------");
+        test(fastCar, 200.5, 20);
+        System.out.println("--------------------");
+
+        test(fastCar, 125, 20);
+        System.out.println("--------------------");
+
+        test(slowCar, 85, 20);
+        System.out.println("--------------------");
+
+        test(slowCar, 65, 65);
+        System.out.println("--------------------");
     } // main
 } // Driver
