@@ -2,7 +2,7 @@
 
 ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
-This class exercise is designed to get you aquainted with Interfaces in Java.
+This class exercise is designed to get you acquainted with Interfaces in Java.
 
 ## Prerequisite Knowledge
 
