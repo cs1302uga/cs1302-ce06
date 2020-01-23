@@ -3,6 +3,12 @@
 ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
 This class exercise is designed to get you acquainted with Interfaces in Java.
+When a seasoned programmer or potential employer asks you if you know 
+Object-Oriented Programming (OOP), they do not mean, "do you know classes and objects?" 
+That's basic enough that it's assumed! Instead, they mean, "do you know the pillars of OOP?"
+The pillars of OOP are interfaces, inheritance, and polymorphism. In this exercise, we continue 
+the exploration of interfaces and interface-based polymorphism that you started with the 
+posted readings/videos. 
 
 ## Prerequisite Knowledge
 
