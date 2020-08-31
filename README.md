@@ -1,6 +1,6 @@
 # ce06 Interfaces (ADTs)
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 This class exercise is designed to get you acquainted with Interfaces in Java.
 When a seasoned programmer or potential employer asks you if you know 
