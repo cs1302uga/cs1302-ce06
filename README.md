@@ -13,7 +13,7 @@ posted readings/videos. 
 ## Prerequisite Knowledge
 
 * A basic understanding of creating and implementing interfaces in Java.
-* https://github.com/cs1302uga/cs1302-tutorials/blob/master/interfaces/interfaces.md
+* [CSCI 1302 Interfaces Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/interfaces/interfaces.md)
 
 ## Course-Specific Learning Outcomes
 
@@ -26,15 +26,17 @@ set of requirements.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
-### Getting Started
+## Exercise Steps
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce06`:
+### Checkpoint 1 Steps - Getting Started
+
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce06`:
 
    ```
    $ git clone https://github.com/cs1302uga/cs1302-ce06.git
@@ -64,14 +66,20 @@ command depends on your present working directory), then please note that contex
 1. List the abstract methods found in the `Driveable` interface.
 
 1. Generate the API documentation website for all of the code in the `cs1302` package. 
-   Host the documentation on Nike using `cs1302-ce06-doc` as the name for your symbolic link.
+   Host the documentation on Odin using `cs1302-ce06-doc` as the name for your symbolic link.
    What is the URL to your hosted website?
    
 1. Look at the `speedUp` method in the `Car.java` file. Compare the Javadoc comment for the
    method in that file to the documentation listed for that method in the API documentation
    website. What do you notice? How is this possible?
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Make sure that you are still in the `cs1302-ce06` directory. Compile `Drivable.java` and place the compiled
    code under the preexisting `bin` directory. To see a listing of all of the files under the `bin` subdirectory, 
@@ -127,7 +135,13 @@ command depends on your present working directory), then please note that contex
    a prior step. Show the instructor or PLA the Javadoc webpage for the new class you created
    and documented _as well as_ the driver class.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
 
 1. Add an abstract method `stop` to the `Drivable` interface, including appropriate Javadoc comments
    for _what_ the method should do. Recompile the interface _as well_ as any code that depends on 
@@ -150,8 +164,6 @@ command depends on your present working directory), then please note that contex
 1. Show the instructor or PLA your `stop` method in the various places that it appears in the API 
    documentation website that you regenerated in the previous step.
 
-**CHECKPOINT**
-
 1. Do not type the following command:
 
    ```
@@ -163,8 +175,53 @@ command depends on your present working directory), then please note that contex
    The command connects you to a highly addictive form of entertainment provided Sten S. Stans, 
    an elite Dutch Unix engineer.
    
-**NOT A CHECKPOINT**
-    
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce05`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The full link to the website generated in this exercise.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce05-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce05` (e.g., `cd ..` from `cs1302-ce05`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce05 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
